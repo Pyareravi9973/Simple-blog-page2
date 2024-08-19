@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.header{
+    height: 30px;
+    position:sticky;
+}
+
+.link{
+    position: absolute;
+    top: 0;
+    left: 2%; 
+    color:rgb(138, 138, 130);
+    font-size: 20px;
+ }
+ 
+ .title{
+     position: absolute;
+     top: 0;
+     left: 45%;
+     right: 40%;
+     text-decoration: underline;
+ }
+ 
+ img{
+     position: absolute;
+     top: 0;
+     right: 2%;
+     width: 30px;
+     height: 30px;
+     color:rgb(138, 138, 130);
+ }
+
+ 
+.box{
+    height: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+   
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+
+    grid-template-areas: 
+    "hd hd"
+    "main main"
+    "foot foot";
+
+ 
+}
+
+.boxes{
+    border: 4px solid whitesmoke;
+}
+
+#box1{
+    text-align:hd;
+ 
+}
+#box2{
+    text-align:hd;
+
+}
+#box3{
+    text-align:main;
+   
+}
+#box4{
+    text-align:main;
+}
+#box5{
+    text-align:foot;
+   
+}
+#box6{
+    text-align:foot;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+}
+
+.content2{
+    margin-top: 10px;
+}
+
+.content3{
+    margin-top: 10px;
+}
+
+.content4{
+    margin-top: 35px;
+}
+
+#box1:content1{
+    color: blue;
+}
+
+.content1left{
+    color: blue;
+}
+
+.content1right{
+     color: green;
+}
